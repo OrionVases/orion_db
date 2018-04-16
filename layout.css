@@ -1,0 +1,251 @@
+/*
+HTML 5 Template Name: Basic 84
+File: Layout CSS
+Author: OS Templates
+Author URI: http://www.os-templates.com/
+Licence: <a href="http://www.os-templates.com/template-terms">Website Template Licence</a>
+*/
+
+html{overflow-y:auto;} /* Forces a scrollbar when the viewport is larger than the websites content - CSS3 */
+
+body{margin:0; padding:0; font-size:13px; font-family:Georgia, "Times New Roman", Times, serif; color:#919191; background-color:#232323;}
+
+.clear:after{content:"."; display:block; height:0; clear:both; visibility:hidden; line-height:0;}
+.clear{display:block; clear:both;}
+html[xmlns] .clear{display:block;}
+* html .clear{height:1%;}
+
+a{outline:none; text-decoration:none;}
+
+code{font-weight:normal; font-style:normal; font-family:Georgia, "Times New Roman", Times, serif;}
+
+.fl_left{float:left;}
+.fl_right{float:right;}
+
+img{margin:0; padding:0; border:none; line-height:normal; vertical-align:middle;}
+.imgholder, .imgl, .imgr{padding:4px; border:1px solid #D6D6D6; text-align:center;}
+.imgl{float:left; margin:0 15px 15px 0; clear:left;}
+.imgr{float:right; margin:0 0 15px 15px; clear:right;}
+
+/*----------------------------------------------HTML 5 Overrides-------------------------------------*/
+
+address,  aside, figcaption, figure, footer, header, nav, section{display:block; margin:0; padding:0;}
+
+q{display:block; padding:0 10px 8px 10px; color:#979797; background-color:#ECECEC; font-style:italic; line-height:normal;}
+q:before{content:'? '; font-size:26px;}
+q:after{content:' ?'; font-size:26px; line-height:0;}
+
+/* ----------------------------------------------Wrapper-------------------------------------*/
+
+div.wrapper{display:block; width:100%; margin:0; padding:0; text-align:left;}
+
+.row1, .row1 a{color:#C0BAB6; background-color:#333333;}
+.row2{color:#979797; background-color:#FFFFFF;}
+.row2 a{color:#FF9900; background-color:#FFFFFF;}
+.row3, .row3 a{color:#919191; background-color:#232323;}
+
+div.bara{height:100px;position:relative;display:block; width:100%; margin:0; padding:0; text-align:left;}
+
+.row1, .row1 a{color:#C0BAB6; background-color:#333333;}
+.row2{color:#979797; background-color:#FFFFFF;}
+.row2 a{color:#FF9900; background-color:#FFFFFF;}
+.row3, .row3 a{color:#919191; background-color:#232323;}
+
+/*----------------------------------------------Generalise-------------------------------------*/
+
+#header, #container, #footer{display:block; width:960px; margin:0 auto;}
+
+nav ul{margin:0; padding:0; list-style:none;}
+
+h1, h2, h3, h4, h5, h6{margin:0; padding:0; font-size:16px; font-weight:bold; font-style:normal; line-height:normal; text-transform:uppercase;}
+
+address{font-style:normal;}
+
+blockquote, q{display:block; padding:8px 10px; color:#979797; background-color:#ECECEC; font-style:italic; line-height:normal;}
+blockquote:before, q:before{content:'? '; font-size:26px;}
+blockquote:after, q:after{content:' ?'; font-size:26px; line-height:0;}
+
+form, fieldset, legend{margin:0; padding:0; border:none;}
+legend{display:none;}
+input, textarea, select{font-size:12px; font-family:Georgia,"Times New Roman",Times,serif;}
+
+.one_third, .two_third, .three_third{display:block; float:left; margin:0 30px 0 0;}
+.one_third{width:300px;}
+.two_third{width:630px;}
+.three_third{width:960px; float:none; margin-right:0; clear:both;}
+
+.one_quarter, .two_quarter, .three_quarter, .four_quarter{display:block; float:left; margin:0 20px 0 0; text-align:justify;}
+.one_quarter{width:225px; height:290px;}
+.two_quarter{width:470px;}
+.three_quarter{width:715px;}
+.four_quarter{width:960px; float:none; margin-right:0; clear:both;}
+
+.lastbox{margin-right:0;}
+
+/*----------------------------------------------Header-------------------------------------*/
+
+#header{padding:20px 0; }
+
+#header #hgroup{float:left; margin:0 0 20px 0;}
+#header #hgroup h1, #header #hgroup h2{font-weight:normal; text-transform:none;}
+#header #hgroup h1{font-size:36px;}
+#header #hgroup h2{font-size:13px;}
+
+#header form{display:block; width:290px; float:right; margin:20px 0; padding:0;}
+#header form input{display:block; float:left; width:200px; margin:0; padding:5px; color:#C0BAB6; background-color:#232323; border:1px solid #666666;}
+#header form #sf_submit{display:block; float:right; width:70px; font-size:12px; font-weight:bold; text-transform:uppercase; color:#FFFFFF; background-color:#FF9900; border:none; cursor:pointer;}
+
+/* #header nav{height:30px;line-height:30px;display:block; width:100%; margin:0; padding:10px 0; color:#C0BAB6; background-color:#232323; clear:both;}
+#header nav ul{list-style:none;}
+#header nav ul li{float:left; margin:auto; text-transform:uppercase;width:150px;text-align:center;}
+#header nav li.last{margin-right:0;}
+#header nav ul li a{margin:auto;display:block;text-decoration:none;width:150px;
+color:#C0BAB6; background-color:#232323;}
+#header nav ul li ul li{display:none;}
+#header ul li:hover ul li{display:block; z-index:10000; }
+#header nav li a:hover{color:#FF9900; background-color:#232323;} */
+
+/*-----------------------------------dokimastiko css gia bara------------------------------*/
+.bara #header{padding:0px 0; }
+
+
+.bara #header nav{height:30px;line-height:30px;display:block; width:100%; margin:0; padding:10px 0; color:#C0BAB6; background-color:#232323; clear:both;}
+.bara #header nav ul{list-style:none;}
+.bara #header nav ul li{float:left; margin:auto; width:160px;text-align:center;}
+.bara #header nav li.last{margin-right:0;}
+.bara #header nav ul li a{margin:auto;display:block;text-decoration:none;width:150px;
+color:#C0BAB6; background-color:#232323;}
+.bara #header nav ul li ul li{display:none;}
+.bara #header ul li:hover ul li{display:block; z-index:10000;}
+.bara #header nav li a:hover{color:#FF9900; background-color:#232323;}
+
+
+/*----------------------------------------------Content Area-------------------------------------*/
+/*.z_index{z-index:-1;} */
+#container{z-index:-1;padding:30px 0;}
+#container section{display:block; width:100%; margin:0 0 30px 0; padding:0;}
+#container .last{margin:0;}
+#container .more{text-align:right;}
+
+/* ------Slider-----*/
+
+#container #slider{}
+
+/* ------Shout-----*/
+
+#container #shout {display:block; width:930px; padding:15px; font-size:16px; line-height:1.8em; color:#979797; background-color:#EEEEEE; text-transform:uppercase; text-align:justify;}
+#container #shout p{margin:0; padding:0;}
+
+/* ------Main Content-----*/
+
+#container #homepage{display:block; width:100%; line-height:1.6em;}
+#container #homepage h1{margin-bottom:25px; padding-bottom:10px; border-bottom:1px solid #D6D6D6;}
+#container #homepage #services{}
+#container #homepage #services article{display:inline; float:left; width:300px; margin:0 30px 0 0; padding:0;}
+#container #homepage #services .last{margin-right:0;}
+#container #homepage #services figure{display:inline; float:left;}
+#container #homepage #services strong{float:left; margin:8px 0 0 10px; padding:0; font-size:14px; font-weight:bold; text-transform:uppercase;}
+#container #homepage #services p{display:block; margin:0; padding:5px 0 0 0; clear:both; line-height:1.6em;}
+#container #homepage #services .spacer{clear:both; padding:8px 0; line-height:normal;}
+
+#container #homepage #latest{}
+#container #homepage #latest article{min-height:280px;}
+#container #homepage #latest figure{padding:4px; border:1px solid #D6D6D6; text-align:center;}
+#container #homepage #latest figcaption{padding:5px; text-align:center; color:#979797; background-color:#EEEEEE; text-align:center;}
+
+#latest article figure a div{} 
+
+/* css for collections.php */
+
+#container #Collections #coll {padding-left:10px;display:inline-block; margin:auto; width:100%; line-height:1.6em; }
+#container #Collections #coll  article{height:240px;margin-left:3px;margin-right:2px;margin-bottom:3px;padding:4px; border:1px solid #D6D6D6; text-align:center;display:inline-block;}
+#container #Collections #coll  article figure{display:block; height:240px;}
+#container #Collections #coll  article a div{padding:5px;margin-top:-48px; text-align:center; color:#979797;
+background-color:#EEEEEE; text-align:center; height:37px;}
+#container #Collections #coll article a div:hover{color:#FF9900; background-color:#EEEEEE;}
+
+/*css for sign in php script(session.php) */
+
+#container #usr_form {text-align:center;height:47em;}
+#container #usr_form form{padding-top:3em;padding-bottom:4em;display:inline-block;text-align:center;border:0.3em solid #979797;}
+#container #usr_form form input{display:inline-block;text-align:center; margin:1em; width:50%; line-height:1.6em; border:0.1em solid #000000;}
+#container #usr_form #file_submit{text-align:center;display:block;margin:auto; margin-bottom:40px;font-size:12px; font-weight:bold; text-transform:uppercase;  border:none; cursor:pointer;}
+#container #usr_form #sf_submit{text-align:center;display:block;width:30%;margin:auto;font-size:12px; font-weight:bold; text-transform:uppercase; color:#FFFFFF; background-color:#FF9900; border:none; cursor:pointer;}
+
+#container h1{font-weight:normal; text-transform:none;font-size:36px;color:#232323;}
+
+/* css for vase_instance.php */
+
+#container #instance #infos{float:left;color:#232323;width:300px;margin:2.5em 0 0 1.2em;}
+#container #instance #threedrep {display:block;width:354px; height:480px;float:left;margin-top:6em;margin-left:9em;}
+
+/* css for insert.php */
+#container #notAllow a{padding-top:5em;padding-bottom:5em;display:block;color:#FF0000;text-align:center;font-size:36px;height:2em;}
+
+#container #dplist{display:inline-block;width:70%; height:480px;margin-left:10em;border:0.3em solid #979797;}
+
+#container #dplist #sf_submit{display:inline-block; width:120px; font-size:12px; font-weight:bold; text-transform:uppercase; color:#FFFFFF; background-color:#FF9900; border:none; cursor:pointer;margin:0 0 2em 22.5em;}
+
+#container #dplist #choose_section{height:30px;line-height:30px;
+  display:inline-block; width:100%; margin:0; padding:10px 0; color:#232323; background-color:#232323; 
+  clear:both;float:left; text-align:center;}
+
+
+#container #dplist #choose_section ul li{ background-color:#A9A9A9;padding-left:1em;padding-right:1em;list-style:none;float:left; margin:-0.9em 4px 0 30px;text-align:center;}
+#container #sf_submit{text-align:center;display:block;width:150px;margin:auto;margin-top:0.5em;font-size:12px; font-weight:bold; text-transform:uppercase; color:#FFFFFF; background-color:#FF9900; border:none; cursor:pointer;}
+#container #dplist #choose_section ul li a{background-color:#A9A9A9;color:#F8F8FF;}
+
+/* for the collection information input elements */
+#container #dplist #coll_inf #dsp{display:inline-block;  width:100%; margin:auto; padding-bottom:10px;}
+#container #dplist #coll_inf #dsp .collInf_Name,#container #dplist #coll_inf #dsp .collInf_rights,#container #dplist #coll_inf #dsp .collInf_temporal,#container #dplist #coll_inf #dsp .collInf_spatial{width:100% ;height:140px;}
+#container #dplist #coll_inf #dsp div{width:100% ;height:100px;}
+#container #dplist #coll_inf #dsp p{font-size:12px; font-weight:bold; text-align:center;color:#000000; }
+#container #dplist #coll_inf #dsp input{display:inline-block; margin:1em 0.8em 0 5em;float:left; }
+#container #dplist #coll_inf #dsp .collInf_Name button{display:inline-block; margin:3em 0.8em 0 5.5em; }
+#container #dplist #coll_inf #dsp .collInf_contacts button{display:inline-block; margin:2em 0em 0 20.5em; }
+#container #dplist #coll_inf #dsp  div button{display:inline-block; margin:3em 0.8em 0 5.5em; }
+
+/* for the heritage asset identification input elements */
+#container #dplist #her_asset #dsp1{display:inline-block;  width:100%; margin:auto; padding-bottom:10px;}
+#container #dplist #her_asset #dsp1 p{font-size:12px; font-weight:bold; text-align:center;color:#000000; }
+#container #dplist #her_asset #dsp1 input{display:inline-block; margin:2em 0.8em 0 5em;float:left; }
+#container #dplist #her_asset #dsp1 .HerAssetGeneralType, #container #dplist #her_asset #dsp1 .HerAssetCondition,#container #dplist #her_asset #dsp1 .HerAssetProvenance,#container #dplist #her_asset #dsp1 .HerAssetMaterials,#container #dplist #her_asset #dsp1 .HerAssetPublicationStatement,#container #dplist #her_asset #dsp1 .HerAsset_references{width:100% ;height:100px;}
+#container #dplist #her_asset #dsp1 .HerAssetActors, #container #dplist #her_asset #dsp1 .HerAssetDescription,#container #dplist #her_asset #dsp1 .HerAssetTypelvl_1,.HerAssetTypelvl_2,.HerAssetTypelvl_3,#container #dplist #her_asset #dsp1 .HerAssetTemporal,#container #dplist #her_asset #dsp1 .HerAssetSpatial,#container #dplist #her_asset #dsp1 .HerAsset_rights{width:100% ;height:140px;}
+#container #dplist #her_asset #dsp1 .HerAssetTemporal{width:100% ;height:160px;}
+#container #dplist #her_asset #dsp1 #recordInformationId #RI_contactsId
+{display:inline-block;  width:100%; margin:auto; padding-bottom:10px; } 
+#container #dplist #her_asset #dsp1 #recordInformationId .RI_contacts p3{font-size:12px; float:left;font-weight:bold; text-align:center;color:#FF0000;margin:1em 0.8em 0 0;}
+#container #dplist #her_asset #dsp1 #recordInformationId .RI_contacts button{display:inline-block; margin:1em 0.8em 0 1em; }
+#container #dplist #her_asset #dsp1 .HerAssetAppellation  button{display:inline-block; margin:1em 0em 0 20.6em; }
+#container #dplist #her_asset #dsp1 .HerAssetDescription  button{display:inline-block; margin:3em 0em 0 5em; }
+#container #dplist #her_asset #dsp1 .HerAssetActors  button{display:inline-block; margin:3em 0em 0 5em; }
+#container #dplist #her_asset #dsp1 .HerAssetTypelvl_1  button,.HerAssetTypelvl_2  button, .HerAssetTypelvl_3  button{display:inline-block; margin:5em 0em 0 -10em;}
+#container #dplist #her_asset #dsp1 .HerAssetDimensions button{display:inline-block; margin:5em 0em 0 5.8em;}
+
+
+/* for the digital resource input elements */
+#container #dplist #digital_res #dsp2{display:inline-block;  width:100%; margin:auto; padding-bottom:10px;}
+#container #dplist #digital_res #dsp2 .digital_res_Type,#container #dplist #digital_res #dsp2 .digital_res_Format,#container #dplist #digital_res #dsp2 .digital_res_object,#container #dplist #digital_res #dsp2 .digital_res_ShownAt{width:100% ;height:100px;}
+#container #dplist #digital_res #dsp2 .digital_res_rights{width:100% ;height:140px;}
+#container #dplist #digital_res #dsp2 p{font-size:12px; font-weight:bold; text-align:center;color:#000000; }
+#container #dplist #digital_res #dsp2 input{display:inline-block; margin:2em 0.8em 0 5em;float:left; }
+#container #dplist #digital_res #dsp2 #digital_res_recordInformationId #digital_res_contactsId{display:inline-block;  width:100%; margin:auto; padding-bottom:10px; } 
+#container #dplist #digital_res #dsp2 #digital_res_recordInformationId .digital_res_contacts p3{font-size:12px; float:left;font-weight:bold; text-align:center;color:#FF0000;margin:1em 0.8em 0 0;}
+#container #dplist #digital_res #dsp2 #digital_res_recordInformationId .digital_res_contacts button{display:inline-block; margin:1em 0.8em 0 1em; }
+#container #dplist #digital_res #dsp2 .digital_res_Appellation button{display:inline-block; margin:1em 0em 0 20em; }
+#container #dplist #digital_res #dsp2 .digital_res_Description button{display:inline-block; margin:3em 0em 0 4.8em; }
+#container #dplist #digital_res #dsp2 .digital_res_Actors button{display:inline-block; margin:3em 0em 0 4.8em; }
+
+/*for the xml file input box */
+#container #dplist #file_name_box{width:100% ;height:50px;}
+#container #dplist #file_name_box input{margin:0 0 0 22em;}
+
+/*for more options at my collection */'
+/*#container #Collections #coll  article div nav{color:#C0BAB6; background-color:#232323;visibility:hidden; z-index:30;display:inline-block;position:absolute} */
+
+
+
+/*----------------------------------------------Footer-------------------------------------*/
+
+#footer{padding:20px 0;bottom:0;}
+#footer p{margin:0; padding:0;}
