@@ -373,6 +373,7 @@ $doc->save($xml_path);
 chmod($xml_path,0775);
 
 $rsl=file_get_contents($xml_path);
+$rsl=str_replace('&',"&amp;",$rsl);
 //echo $xml_path;
 //echo $rsl;
 	include 'lib/Client.class.php';
@@ -406,14 +407,14 @@ return(
 
 EOXQL;
 $stmt = $conn->prepareQuery($xql);
-//echo "ok";
+echo "ok";
 
 
 $stmt->bindVariable('usr_name', $dummy_xml);
 $stmt->bindVariable('entry_name', $entry_name_xml);
 $stmt->bindVariable('rsl', $rsl);
-$resultPool=$stmt->execute();
-//echo "ok1";
+$resultPool=$stmt->execute();echo "ok1";
+
 $results = $resultPool->getAllResults();
 
 
